@@ -19,7 +19,7 @@ public class Main {
             }
         }
         System.out.println("Максимальная сумма трат за неделю составила " + maxSpending + " рублей");
-        System.out.println("Минимальна сумма трат за неделю составила " + minSpending + " рбулей");
+        System.out.println("Минимальна сумма трат за неделю составила " + minSpending + " рублей");
         // Задание 3
         double[] averageSpend = {9032.43, 11234, 4567.12, 2395.65, 36718};
         double sum = 0;
@@ -31,7 +31,7 @@ public class Main {
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         for (int i = reverseFullName.length - 1; i >= 0; i--) {
             if (i >= 0) {
-                System.out.print(reverseFullName[i] + " ");
+                System.out.print(reverseFullName[i]);
             }
         }
     }
